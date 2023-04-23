@@ -1,0 +1,57 @@
+/*STYLES ON THE POSTS PAGE*/
+.searchbox {
+    max-height: 664px;
+}
+
+.btn-accent {
+    background-color: #484599;
+    color: #FFFFFF;
+}
+
+.btn-accent:hover {
+    background-color: #25244F;
+    color: #FFFFFF;
+}
+.post{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post:hover {
+    opacity: 90%;
+    margin-top: -0.5em;
+    box-shadow: 0.5em 0.5em 0.2em #213242;
+    cursor: pointer;
+}
+
+.logout:hover{
+   color: red;
+}
+
+.mylink:hover{
+   color: white;
+   font-weight: bold;
+   text-decoration: underline 1px;
+}
+
+.loglink:hover{
+   color: red;
+   font-weight: bold;
+   text-decoration: underline 1px;
+}
+
+.p{
+   color: #D3d3d3;
+}
+
+.tag {
+    float: left;
+    width: fit-content;
+}
+
+.tags {
+    overflow: hidden;
+}
+
+.searchcheck:checked {
+    background-color: #484599;
+    border-color: #484599;
+}
